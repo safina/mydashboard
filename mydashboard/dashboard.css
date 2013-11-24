@@ -1,0 +1,51 @@
+body {
+	background-image: url(images/red.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:top center;
+	font-size: 12px;
+	line-height: 1.5em; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+h1 {
+	font-size: 40px;
+
+}
+
+aside {
+	display: inline-block; 
+	width: 100%; 
+	float: left;
+}
+
+#header {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#main {
+ margin-left: 10%;
+ width: 60%;
+ display: inline-block;
+}
+
+#social {
+	padding-right: 10%; 
+	width: auto;
+	float: right; 
+	display: inline-block;
+}
+
+#timestamp {
+	color: white;
+	opacity: 0.6;
+}
+
+.container {
+	background: white;
+	padding: 30px; 
+	opacity: 0.6;
+}​
+
