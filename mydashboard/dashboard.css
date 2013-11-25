@@ -3,7 +3,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position:top center;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 1.5em; 
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 
@@ -12,12 +12,6 @@ body {
 h1 {
 	font-size: 40px;
 
-}
-
-aside {
-	display: inline-block; 
-	width: 100%; 
-	float: left;
 }
 
 #header {
