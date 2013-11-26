@@ -62,7 +62,14 @@
 			<script>
 				var today = new Date();
 				document.write(today.getDate()+"/"+today.getMonth()+"/"+today.getFullYear());
-				document.write("</br>"+ today.getHours() + ":" + today.getMinutes());
+				if (today.getMinutes()<10)
+				{
+					document.write("</br>"+ today.getHours() + ":0" + today.getMinutes());
+				}
+				else
+				{
+					document.write("</br>"+ today.getHours() + ":" + today.getMinutes());
+				}
 			</script>
 			</br>
 		</section>
